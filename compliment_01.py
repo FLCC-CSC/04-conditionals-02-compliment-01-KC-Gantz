@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Casey Gantz
+# DATE: 2/28/26
+# BRIEF DESCRIPTION: Have multiple preditermined responses based on the answer to a question
 
 
 
@@ -16,10 +16,21 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+answer = input("Would you like a compliment? ")
 
 
+if answer.lower() == "yes":
+    print("You have wonderful eyes.")
+    print("Thank you for playing.")
 
-
+if answer.lower() == "y":
+    print('Thanks for playing')
+    
+if answer.lower() == "Yes":
+    print('Thanks for playing')
+    
+if answer.lower() == "no":
+    print('Thanks for playing')
 
 
 
@@ -67,12 +78,12 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+Maybe a 3? Once you know what command to use, its really straight forward. 
 
 
 2. What was the hardest part of this lab?
 
-
+Figuring out what command to use. 
 
 
 
